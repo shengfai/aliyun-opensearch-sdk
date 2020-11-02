@@ -1,0 +1,34 @@
+{
+    "name": "shengfai\/opensearch-sdk",
+    "description": "Aliyun OpenSearch SDK for PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliyuncs",
+            "homepage": "http://www.aliyun.com"
+        }
+    ],
+    "version": "v3.3.0",
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "evert/phpdoc-md" : "~0.2.0"
+    },
+    "config": {
+        "disable-tls": true,
+        "secure-http": false
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    },
+    "autoload": {
+        "files": [
+            "./OpenSearch/Autoloader/Autoloader.php"
+        ]
+    }
+}
