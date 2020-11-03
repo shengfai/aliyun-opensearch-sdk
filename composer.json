@@ -8,11 +8,9 @@
             "homepage": "http://www.aliyun.com"
         }
     ],
-    "version": "v3.3.0",
     "require": {
          "php": ">=5.5"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "files": [
             "./OpenSearch/Autoloader/Autoloader.php"
