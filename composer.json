@@ -10,5 +10,10 @@
     ],
     "require": {
          "php": ">=5.5"
+    },
+    "autoload": {
+        "files": [
+            "./OpenSearch/Autoloader/Autoloader.php"
+        ]
     }
 }
